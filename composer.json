@@ -1,0 +1,20 @@
+{
+    "name": "vkvis/blog-system",
+    "autoload": {
+        "psr-4": {
+            "Vkvis\\BlogSystem\\": "src/",
+            "Core\\": "src/Core/",
+            "Models\\": "src/Models/",
+            "Controllers\\": "src/Controllers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lokesh-node",
+            "email": "er.lokesh057@yahoo.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
